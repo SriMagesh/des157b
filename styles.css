@@ -51,11 +51,12 @@ ul{
 }
 li{
     padding-top: 15px;
+    color: #CE6E35;
 }
 a{
     font-family: 'Melodrama-Medium';
     text-decoration: none;  
-    color: black;
+    color: #ffc09c;
 }
 a:hover{
     color:#ECB21F;
@@ -64,7 +65,7 @@ section{
     flex:1;
     margin: 10px;
     flex-direction: column;
-    background-color: #CE6E35;
+    background-color: black;
     border-radius: 20px;
     border: 1rem solid black;
     text-align: center;
@@ -81,7 +82,7 @@ main{
     justify-content: space-between;
 
 }
-.banner:hover .leftImg{
+/* .banner:hover .leftImg{
     animation-duration: 10s;
     animation-name: slideLeft;
 }
@@ -89,7 +90,7 @@ main{
     position: relative;
     animation-duration: 10s;
     animation-name: slideRight;
-}
+} */    
 footer{
     list-style-type: none;
     padding: 10px;
@@ -99,11 +100,16 @@ footer{
 }
 
 .card {
+    background-image: url(/images/Bg1.png);
+    background-image: none;
     position: relative;
     padding-top: 50px;
     padding-bottom: 20px;
     height: 250px;
 
+}
+img{
+    margin-left: -50px;
 }
 .card:hover .back {
     transform: rotateY(180deg);
@@ -118,7 +124,6 @@ footer{
     transition: 1.5s;
     position: absolute;
     top: 0;
-    left: 0;
     border-radius: 5px;
 }
 .back {
